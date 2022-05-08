@@ -1,14 +1,12 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import AuthScreen from "./screens/AuthScreen";
+import React from 'react';
 
-import EditorScreen from './screens/EditorScreen'
-import HomeScreen from "./screens/HomeScreen";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import AuthScreen from './screens/AuthScreen';
 
-function App() {
+import EditorScreen from './screens/EditorScreen';
+import HomeScreen from './screens/HomeScreen';
+
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -18,6 +16,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

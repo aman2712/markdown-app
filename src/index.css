@@ -5,5 +5,22 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ͼ1.cm-editor {
+  height: calc(100vh - 100px);
+  overflow: auto;
+  width: 50vw;
+}
+
+.preview-wrapper {
+  padding-right: 0px !important;
+}
+
+.preview {
+  height: calc(100vh - 120px);
+  overflow: auto;
+  width: 100%;
+  max-width: 100%;
 }
